@@ -23,18 +23,18 @@ def read(*paths, **kwargs):
 
 
 description = """
-project_name API helps you do awesome stuff. 🚀
+api_beegol_insights API helps you do awesome stuff. 🚀
 """
 
 app = FastAPI(
-    title="project_name",
+    title="api_beegol_insights",
     description=description,
     version=read("VERSION"),
-    terms_of_service="http://project_name.com/terms/",
+    terms_of_service="http://api_beegol_insights.com/terms/",
     contact={
-        "name": "author_name",
-        "url": "http://project_name.com/contact/",
-        "email": "author_name@project_name.com",
+        "name": "dimirandelbeegol",
+        "url": "http://api_beegol_insights.com/contact/",
+        "email": "dimirandelbeegol@api_beegol_insights.com",
     },
     license_info={
         "name": "The Unlicense",

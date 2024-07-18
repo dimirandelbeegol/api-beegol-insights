@@ -1,8 +1,8 @@
 [run]
-source = project_name
+source = api_beegol_insights
 
 [report]
 omit =
     */python?.?/*
     */site-packages/nose/*
-    project_name/__main__.py
+    api_beegol_insights/__main__.py
